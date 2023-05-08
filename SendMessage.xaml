@@ -131,7 +131,11 @@
     <Sequence.Variables>
       <Variable x:TypeArguments="snm:MailMessage" Name="TargetMessage" />
       <Variable x:TypeArguments="scg:List(snm:MailMessage)" Name="Messages" />
-      <Variable x:TypeArguments="x:String" Default="187f6a6151f4e52d" Modifiers="ReadOnly" Name="TARGET_MESSAGE_ID" />
+      <Variable x:TypeArguments="x:String" Modifiers="ReadOnly" Name="TARGET_MESSAGE_ID">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">187ebaed6632b385</Literal>
+        </Variable.Default>
+      </Variable>
       <Variable x:TypeArguments="x:Boolean" Name="SendMessagePermission" />
       <Variable x:TypeArguments="x:Int32" Default="0" Name="Attempt" />
       <Variable x:TypeArguments="x:TimeSpan" Name="Delay" />
