@@ -112,7 +112,7 @@
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="x:String">
-          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">$"Файл содержит {in_RowCount} {Text}"</CSharpValue>
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">$"Добрый день! Файл содержит {in_RowCount} {Text}. Проект доступен по ссылке https://github.com/xsaq/CrossExchangeRateSender"</CSharpValue>
         </InArgument>
       </Assign.Value>
     </Assign>
